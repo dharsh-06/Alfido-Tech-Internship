@@ -1,0 +1,197 @@
+body {
+  background: radial-gradient(circle at top left, #4b0082, #1a0033);
+  color: #f0e6fa;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 70px;
+}
+.navbar {
+  background: rgba(75, 0, 130, 0.85);
+  box-shadow: 0 0 15px #8a2be2;
+}
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  color: #e0c3fc !important;
+  text-shadow: 0 0 5px #c29cff;
+}
+.nav-link {
+  color: #d3b9ff !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #ffda79 !important;
+  text-shadow: 0 0 8px #ffda79;
+}
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 0 0 30px #8a2be2;
+  backdrop-filter: blur(8px);
+}
+section h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #e0c3fc;
+  text-shadow: 0 0 8px #c29cff;
+}
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d3b9ff;
+  text-shadow: 0 0 4px #7a5299;
+}
+.btn-warning,
+.btn-outline-warning {
+  font-weight: 600;
+  padding: 10px 25px;
+  box-shadow: 0 0 10px #ffda79;
+  border-radius: 30px;
+}
+.btn-outline-warning:hover {
+  background-color: #ffda79;
+  color: #1a0033;
+}
+section img {
+  width: 80px;
+  margin-top: 20px;
+  filter: drop-shadow(0 0 4px #ffda79);
+}
+
+.features-section{
+  margin-top: 40px;
+}
+.features-title{
+  color: #ffcc00;
+  font-family: 'Comic Sans MS',cursive;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.features-container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.feature-card{
+  text-align: center;
+  max-width: 200px;
+}
+.feature-card img{
+  width: 60px;
+  margin-bottom: 10px;
+}
+.about-heading {
+  color: #ffc107;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.about-list {
+  list-style-type: "✨ ";
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding-left: 20px;
+  color: #d3b9ff;
+  text-shadow: 0 0 4px #7a5299;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.get-in-touch {
+  font-weight: 600;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  max-width: 1000px;
+}
+.service-card {
+  background: #67428c; 
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(175, 125, 255, 0.2); 
+  color: #f3eaff; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #ffd700; 
+  margin-bottom: 0.8rem;
+}
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.contact-form{
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background:rgba(64, 31, 97, 0.6);
+  border: 2px solid #7f5af0;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(127, 90, 240, 0.5);
+  color: #ffffff;
+  backdrop-filter: blur(12px);
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+}
+.contact-form .form-group{
+  margin-bottom: 20px;
+}
+.contact-form label{
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  display: block;
+  color: #dcd0ff;
+}
+.contact-form input,
+.contact-form textarea{
+  padding:12px 15px ;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  transition: box-shadow 0.3s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+  outline: none;
+  box-shadow: 0 0 8px #b89bff;
+}
+.contact-form button{
+  padding:12px;
+  background:linear-gradient(90deg,#9f78ff,#6c63ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease,transform 0.2s ease;
+}
+.contact-form button:hover{
+  background: linear-gradient(90deg,#b18aff,#867bff);
+  transform:scale(1.05)
+}
+
